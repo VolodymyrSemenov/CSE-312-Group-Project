@@ -21,7 +21,7 @@ services:
       context: .
       dockerfile: Dockerfile.frontend
     ports:
-     - '127.0.0.1:3000:3000'
+      - '127.0.0.1:3000:3000'
     environment:
       - DANGEROUSLY_DISABLE_HOST_CHECK=true
       - WDS_SOCKET_PORT=0
